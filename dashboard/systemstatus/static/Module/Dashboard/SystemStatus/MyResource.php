@@ -1,3 +1,6 @@
+<?php
+namespace NethServer\Module\Dashboard\SystemStatus;
+
 class MyResource extends \Nethgui\Controller\AbstractController
 {
 

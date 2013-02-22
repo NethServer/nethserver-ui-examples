@@ -1,3 +1,6 @@
+<?php
+namespace NethServer\Module\Dashboard\Applications;
+
 class MyApp extends \Nethgui\Module\AbstractModule implements \NethServer\Module\Dashboard\Interfaces\ApplicationInterface
 {
 
