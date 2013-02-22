@@ -15,7 +15,7 @@ class MyModule extends \Nethgui\Controller\AbstractController
     public function initialize()
     {
         parent::initialize();
-        // Bind 'status' view parameter to 'status' prop in ejabberd key of configuration db
+        // Bind 'status' view parameter to 'status' prop in myserver key of configuration db
         $this->declareParameter('status', Validate::SERVICESTATUS, array('configuration', 'myserver', 'status'));
     }
 

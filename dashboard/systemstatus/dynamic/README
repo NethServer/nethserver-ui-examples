@@ -1,0 +1,1 @@
+Create a MyResource controller with a dynamic template. The template will reload the information every 10 seconds (pay attention to possible memory leaks!).
