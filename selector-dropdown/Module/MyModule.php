@@ -25,7 +25,7 @@ class MyModule extends \Nethgui\Controller\AbstractController
         parent::prepareView($view);
 
         // When dealing with selector, the view will search for a paramater named <param_name>Datasource
-        $view['MyValuesDatasource'] = $this->readMyValuesNameDatasource($view);
+        $view['MyValuesDatasource'] = $this->readMyValuesDatasource($view);
     }
 
 
